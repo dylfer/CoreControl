@@ -6,5 +6,4 @@ def load():
         config = json.load(f)
     if len(config) == 0:
         return "Setup required"
-    for key, value in config.items():
-        globals()[key] = value
+    return config
