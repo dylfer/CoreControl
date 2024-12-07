@@ -1,5 +1,5 @@
 #  web file system
-This is a website file system for servers 
+This is a website control panale for servers
 
 ## requirements
 python
@@ -12,7 +12,7 @@ npm moduels -
 ```python main.py```
 
 ## set up
-open ```127.1.1.1:6767``` and go throught setup 
+open ```127.0.0.1:6767``` and go throught setup 
 
 
 ## optional enviroment variables
@@ -26,4 +26,5 @@ open ```127.1.1.1:6767``` and go throught setup
  - [ ] sub user managment 
  - [ ] file/folder upload
  - [ ] file/folder(zip) download
- - [ ] 
+ - [ ] resource dashboard
+ - [ ] custom page addition intgration

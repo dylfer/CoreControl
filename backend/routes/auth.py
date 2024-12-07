@@ -3,11 +3,11 @@ from flask import Blueprint
 router = Blueprint('auth', __name__, url_prefix='/auth')
 
 
-@router.route("/login")
+@router.post("/login")
 def login():
-    return ""
+    return "test"
 
 
-@router.route("/signup")
+@router.post("/signup")
 def signup():
     return ""
